@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+:root {
+  --black: #3e3d3d;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--black);
+}
+
+* h3 {
+  font-size: 24px !important;
+}
+
+* p {
+  font-size: 16px !important;
+}
+
+/* Navbar Start */
+nav {
+  text-transform: uppercase;
+  background-color: white;
+  height: 123px;
+}
+
+nav .link-nav {
+  text-decoration: none;
+  color: var(--black);
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px 15px 0 15px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav .profile i {
+  font-size: 24px;
+}
+
+nav .cart p {
+  margin: 0 0 0 0;
+}
+
+nav ul li::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background-color: var(--black);
+  margin: auto;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+nav ul li:hover::after {
+  content: '';
+  width: 50%;
+}
+/* Navbar End */
+
+/* Header Start */
+header {
+  position: relative;
+  margin-top: 123px;
+}
+
+header img {
+  cursor: pointer;
+}
+
+header .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.678);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+header .overlay:hover {
+  opacity: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.205);
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header .content-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+header .content-header h2 {
+  font-size: 38px !important;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+header .content-header p {
+  color: white !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1.5);
+}
+
+header .content-header button.btn {
+  background-color: rgba(0, 0, 0, 0.185);
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.2s;
+  padding: 10px 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1.5);
+}
+header .content-header button.btn:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: var(--black);
+}
+/* Header End */
+
+/* On Sale Start */
+.on-sale {
+  margin-top: 150px;
+  text-transform: uppercase;
+}
+
+.on-sale .col-md-3 .image {
+  position: relative;
+}
+
+.on-sale .col-md-3 .image .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.on-sale .col-md-3 .image .overlay:hover {
+  opacity: 1;
+}
+
+.on-sale .col-md-3 {
+  padding: 4px;
+}
+
+.on-sale .col-md-3 .text p {
+  font-size: 14px !important;
+  cursor: pointer;
+}
+
+.on-sale .text .text-decoration-underline {
+  margin-top: -10px;
+}
+
+.on-sale button.btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1.5px solid var(--black);
+  color: var(--black);
+  text-transform: uppercase;
+  transition: 0.2s;
+  padding: 10px 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1.5);
+  font-weight: 500;
+}
+.on-sale button.btn:hover {
+  background-color: var(--black);
+  border: 1.5px solid white;
+  color: white;
+}
+
+/* On Sale End */
+
+/* Content Start */
+
+.content {
+  position: relative;
+  margin-top: 150px;
+}
+
+.content .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.content .content-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-content h2 {
+  font-size: 34px;
+}
+
+.content .content-content h2,
+.content-content p {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.content .content-content button.btn {
+  background-color: rgba(0, 0, 0, 0.185);
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.2s;
+  padding: 10px 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1.5);
+}
+.content .content-content button.btn:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: var(--black);
+}
+/* Content End */
+
+/* Footer Start */
+footer {
+  overflow-x: hidden;
+  height: 200px;
+  margin-top: 150px;
+}
+footer .footer-content {
+  color: white;
+  height: 100%;
+  background-color: #3e3d3d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-content p {
+  color: white;
+  cursor: pointer;
+}
+.footer-content p:hover {
+  color: rgb(202, 168, 168);
+}
+
+.footer-content .icons-social {
+  cursor: pointer;
+}
+
+.copyright {
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+.copyright:hover {
+  color: rgb(170, 170, 170);
+}
+/* Footer End */
