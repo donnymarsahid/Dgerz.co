@@ -27,7 +27,7 @@ const Login = () => {
   return (
     <>
       <Fragment>
-        {redirect && <Redirect to="/welcome" />}
+        {redirect && <Redirect to="/admin" />}
         <div class="limiter">
           <div class="container-login100">
             <div class="wrap-login100">

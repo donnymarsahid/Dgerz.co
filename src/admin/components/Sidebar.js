@@ -25,7 +25,7 @@ function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link class="nav-link" to="/edit">
+              <Link class="nav-link" to="/detailCategory">
                 <p style={{ color: 'white', fontWeight: '500', fontSize: '15px' }}>Edit Category</p>
               </Link>
             </li>
