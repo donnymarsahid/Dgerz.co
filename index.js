@@ -10,8 +10,11 @@ app.use(express.json());
 
 const categoryRouter = require('./routes/category');
 const saleRouter = require('./routes/sale');
+const loginAdminRouter = require('./routes/loginAdmin');
+
 app.use('/category', categoryRouter);
 app.use('/sale', saleRouter);
+app.use('/loginAdmin', loginAdminRouter);
 
 app.listen(PORT, () => {
   console.log(`server is ok in port ${PORT}`);
