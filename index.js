@@ -20,8 +20,4 @@ app.listen(PORT, () => {
   console.log(`server is ok in port ${PORT}`);
 });
 
-app.get('/', (req, res) => {
-  res.send('success');
-});
-
 module.exports = app;
