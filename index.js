@@ -13,12 +13,6 @@ const saleRouter = require('./routes/sale');
 app.use('/category', categoryRouter);
 app.use('/sale', saleRouter);
 
-app.get('/', (req, res) => {
-  res.send({
-    message: 'auth token',
-  });
-});
-
 app.listen(PORT, () => {
   console.log(`server is ok in port ${PORT}`);
 });
