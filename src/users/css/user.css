@@ -101,7 +101,7 @@ header .content-header {
 }
 
 header .content-header h2 {
-  font-size: 38px !important;
+  font-size: 38px;
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -229,38 +229,125 @@ header .content-header button.btn:hover {
 }
 /* Content End */
 
-/* Footer Start */
-footer {
-  overflow-x: hidden;
-  height: 200px;
+/* Category Start */
+
+.category-card-loop {
+  padding: 0 !important;
+}
+
+.category {
   margin-top: 150px;
 }
-footer .footer-content {
-  color: white;
-  height: 100%;
+.content-category {
+  margin-bottom: 100px;
+  overflow-x: hidden;
+  height: 800px;
+}
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.slick-arrow.slick-prev {
+  margin-left: 50px !important;
+}
+.slick-arrow.slick-next {
+  margin-right: 50px !important;
+}
+button.slick-arrow:before {
+  font-size: 50px !important;
+}
+/* Category End */
+
+/* Promo Start */
+.promo {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+.promo .btn-sign-up {
+  padding: 10px 20px;
   background-color: #3e3d3d;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.footer-content p {
   color: white;
-  cursor: pointer;
 }
-.footer-content p:hover {
-  color: rgb(202, 168, 168);
+.promo .btn-sign-up:hover {
+  background-color: #2b2a2a;
+  color: white;
+}
+/* Promo End */
+
+/* Footer Start */
+footer {
+  background-color: var(--black);
+  height: 60vh;
+  overflow-x: hidden;
 }
 
-.footer-content .icons-social {
-  cursor: pointer;
+footer .about-shop,
+footer .footer-menu,
+footer .subscribe,
+footer .copyright {
+  width: 33%;
+  height: 100%;
+  color: white;
 }
 
-.copyright {
-  cursor: pointer;
+footer .txt {
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+footer .footer-menu,
+footer .subscribe {
+  padding-left: 50px;
+}
+
+footer .footer-menu p,
+footer .about-shop p,
+footer .subscribe p,
+footer .subscribe button.btn {
   color: white;
+}
+
+footer .link .link-footer {
+  text-decoration: none;
+}
+footer .link ul li,
+footer .link ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+footer .link ul li {
+  padding-bottom: 10px;
+}
+
+footer .container {
+  padding-top: 50px;
+}
+footer .container-footer {
+  margin-bottom: 20px;
+}
+footer .subscribe input {
+  outline: none;
+  height: 40px;
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+footer .subscribe button.btn {
+  border: 1.5px solid white;
+  color: white;
+  margin-top: 10px;
   transition: 0.2s;
 }
-.copyright:hover {
-  color: rgb(170, 170, 170);
+footer .subscribe button.btn:hover {
+  border: 1.5px solid white;
+  color: var(--black);
+  background-color: white;
+  margin-top: 10px;
 }
 /* Footer End */

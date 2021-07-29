@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CardSale = ({ item }) => {
-  const IMG_URL = 'http://localhost:3001/sale/';
+  const IMG_URL = 'https://server-dgerz.herokuapp.com/sale/';
   return (
     <>
       <div class="col-md-3">

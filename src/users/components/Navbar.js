@@ -21,9 +21,6 @@ const Navbar = () => {
                   <Link class="link-nav">category</Link>
                 </li>
                 <li>
-                  <Link class="link-nav">about us</Link>
-                </li>
-                <li>
                   <Link class="link-nav">store</Link>
                 </li>
                 <li>
@@ -37,6 +34,9 @@ const Navbar = () => {
           </div>
           <div class="cart">
             <p>cart (0)</p>
+          </div>
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
           </div>
         </div>
       </nav>

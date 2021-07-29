@@ -1,0 +1,179 @@
+/* Mobile Small */
+@media (max-width: 320px) {
+  body header h2,
+  body .content h2 {
+    font-size: 20px !important;
+  }
+  body header p,
+  body .content p {
+    font-size: 12px !important;
+  }
+  body header button.btn,
+  body .content button.btn {
+    padding: 4px 10px !important;
+    font-size: 12px;
+  }
+}
+/* Mobile */
+@media (max-width: 767px) {
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  nav .link,
+  nav .profile {
+    display: none;
+  }
+
+  nav {
+    height: 90px;
+  }
+
+  nav .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav .logo {
+    order: 2;
+  }
+  nav .logo img {
+    width: 180px;
+    margin-left: 35px;
+  }
+  nav .cart,
+  nav .cart p {
+    order: 3;
+    font-size: 14px !important;
+  }
+  nav .hamburger-menu,
+  nav .hamburger-menu i {
+    order: 1;
+    font-size: 24px;
+  }
+  header {
+    margin-top: 90px;
+  }
+  header h2 {
+    font-size: 24px !important;
+  }
+  header p {
+    font-size: 14px !important;
+  }
+  header button.btn {
+    font-size: 14px;
+    padding: 6px 13px !important;
+  }
+  .on-sale {
+    margin-top: 100px;
+  }
+  .on-sale .col-md-3 {
+    width: 50%;
+  }
+  .on-sale button.btn {
+    font-size: 14px;
+    padding: 6px 13px !important;
+  }
+  .content {
+    margin-top: 100px;
+  }
+  .content h2 {
+    font-size: 24px !important;
+  }
+  .content p {
+    font-size: 12px !important;
+  }
+  .content button.btn {
+    font-size: 14px;
+    padding: 6px 13px !important;
+  }
+  .content-category {
+    height: 600px;
+  }
+  footer {
+    height: 90vh;
+  }
+  footer p.txt {
+    font-size: 12px !important;
+  }
+  footer p,
+  .footer-menu ul li {
+    font-size: 14px !important;
+  }
+  footer .container {
+    display: flex;
+    width: 100%;
+  }
+  footer .subscribe,
+  footer .about-shop {
+    width: 50%;
+  }
+  footer .subscribe input {
+    width: 150px;
+    font-size: 12px;
+  }
+  footer .subscribe {
+    padding-left: 30px !important;
+  }
+  footer .subscribe button.btn {
+    padding: 6px 13px;
+    font-size: 14px;
+  }
+  footer .footer-menu-mobile {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  footer .footer-menu {
+    display: none;
+  }
+  footer .copyright {
+    font-size: 14px !important;
+    width: 100%;
+  }
+}
+
+/* Tablet to Desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+  body nav .container {
+    padding: 0 !important;
+  }
+  nav .logo img {
+    margin-left: 35px;
+  }
+  nav ul li {
+    font-size: 14px;
+  }
+  nav .hamburger-menu {
+    display: none;
+  }
+  nav .profile i {
+    font-size: 20px;
+  }
+  nav .cart p {
+    font-size: 14px !important;
+  }
+  footer {
+    height: 80vh;
+  }
+  footer .subscribe input {
+    width: 180px;
+  }
+  footer .copyright {
+    width: 100%;
+  }
+  footer .footer-menu-mobile {
+    display: none;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  nav .hamburger-menu {
+    display: none;
+  }
+  footer .footer-menu-mobile {
+    display: none;
+  }
+}
